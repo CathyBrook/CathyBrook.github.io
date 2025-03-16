@@ -1,8 +1,8 @@
 github_users:
-#  - torvalds
+  - torvalds
 #  - alshedivat
 
-repo_description_lines_max: 0
+repo_description_lines_max: 1
 
 github_repos:
   - alshedivat/al-folio
