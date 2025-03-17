@@ -6,7 +6,7 @@ subtitle: Beamline Scientist, Advanced Photon Source, Argonne National Laborator
 
 profile:
   align: right
-  image: Juanjuan Huang 33921D_XSD_GROUP PHOTO_SPC Group & Headshots30_1600x1600.jpg
+  image: about_personal_photo.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>HUANG JUANJUAN</p>
