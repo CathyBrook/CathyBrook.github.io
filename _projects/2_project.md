@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+title: 2p-3d RIXS
+description: 2p-3d resonant inelastic X-ray scattering, measured at ID26, ESRF (Master’s thesis project)
+img: assets/img/2p-3d-rixs.png
 importance: 2
 category: work
 giscus_comments: true
