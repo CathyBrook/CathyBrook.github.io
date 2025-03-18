@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Beamline Scientist, Advanced Photon Source, Argonne National Laboratory   Lemont, IL, USA 
+subtitle: Beamline Scientist, Advanced Photon Source, Argonne National Laboratory, USA 
 
 profile:
   align: right
