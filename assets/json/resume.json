@@ -21,6 +21,17 @@
       "endDate": "2017-08-01",
       "score": "10",
       "courses": ["Theory of Relativity"]
+    },
+    {
+      "institution": "Bachelor of Science in Chemistry, Sun Yat-Sen (Zhong Shan) University (SYSU, top 10 universities in China) ",
+      "location": "Guangzhou, China",
+      "url": "",
+      "area": "Science in Chemistry",
+      "studyType": "B.A",
+      "startDate": "2011-09-01",
+      "endDate": "2015-08-01",
+      "score": "10",
+      "courses": ["Theory of Relativity"]
     }
   ],
   "basics": {
@@ -57,12 +68,39 @@
       "highlights": ["Relativity"]
     },
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
+      "name": "Postdoctoral Appointee – the Advanced Photon Source, Argonne National Laborotary",
+      "position": "Lemont, USA",
+      "url": "",
+      "startDate": "2022-09-01",
+      "endDate": "2023-09-01",
+      "summary": "Supervisor: Dr. George Sterbinsky; Group leader: Dr. Shelly Kelly, Research project entitled Resolving Capacity Fade in Li-Ion Batteries with Single-Shot Chemical Mapping, Implemented dispersive X-ray absorption spectroscopy (DXAS) for fast XANES-imaging on beamline ID25, APS and applied to Li-ion batteries. ",
+      "highlights": ["Relativity"]
+    },
+    {
+      "name": "Doctoral researcher – Department of physics, Technical ",
+      "position": "Munich, GERMANY",
+      "url": "",
+      "startDate": "2018-01-01",
+      "endDate": "2022-07-01",
+      "summary": "Supervisors: Dr. Martin Dierolf, Prof. Dr. Franz Pfeiffer， Research group: Chair of biomedical physics (E17)， Research topic: X-ray absorption spectroscopy at the Munich Compact Light Source.",
+      "highlights": ["Relativity"]
+    },
+    {
+      "name": "Short-term research scholar - Stanford Synchrotron Radiation Lightsource (SSRL)",
+      "position": "Menlo Park, USA",
+      "url": "",
+      "startDate": "2019-12-01",
+      "endDate": "2020-03-01",
+      "summary": "Supervisor: Dr. Yijin Liu， Worked on BL 6-2c (transmission X-ray microscope), Hands-on experience on 3d XANES imaging and data analysis",
+      "highlights": ["Relativity"]
+    },
+    {
+      "name": "Master’s researcher - European Synchrotron Radiation Facility (ESRF)",
+      "position": "Grenoble, FRANCE",
+      "url": "",
+      "startDate": "2016-05-01",
+      "endDate": "2017-08-01",
+      "summary": "Supervisor: Dr. Marius Retegan; Group leader: Dr. Pieter Glatzel (beamline ID 26), Master’s thesis entitled: The Electronic Structure of Mononuclear Manganese Compounds: Experimental and Theoretical Insights from X-Ray Absorption Spectroscopy and Resonant Inelastic X-Ray Scattering, Internship: XANES, valence-to-core XES simulation of transitional metal containing complexes using ORCA package.",
       "highlights": ["Relativity"]
     }
   ],
@@ -80,11 +118,25 @@
   ],
   "talks": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "Conference: International Symposium on Compact Synchrotron X-ray",
+      "date": "2021-07-01",
+      "awarder": "",
+      "url": "",
+      "summary": "International Symposium on Compact Synchrotron X-ray, Sources 2024, Dispersive X-ray Absorption Spectroscopy at the Munich Compact Light Source (MuCLS) and the Advanced Photon Source (APS) "
+    },
+    {
+      "title": "Conference: X-ray Spectroscopy beyond Beamlines",
+      "date": "2021-03-01",
+      "awarder": "",
+      "url": "",
+      "summary": "Conference: X-ray Spectroscopy beyond Beamlines, Dispersive X-ray absorption spectroscopy with an inverse Compton source"
+    },
+    {
+      "title": "Webinar: Global XAS Journal Club",
+      "date": "2020-08-01",
+      "awarder": "",
+      "url": "",
+      "summary": "Webinar: Global XAS Journal Club, Energy Dispersive X-ray absorption spectroscopy at the Munich Compact Light Source"
     }
   ],
   "certificates": [
