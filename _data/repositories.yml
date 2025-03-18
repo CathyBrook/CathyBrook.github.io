@@ -4,5 +4,8 @@ github_users:
 repo_description_lines_max: 3
 
 github_repos:
+  - Cathyhjj/EasyXASCalc
+  - DXASCalc
   - Cathyhjj/neighbor
   - Cathyhjj/XAFS_animations
+  - spc-group/haven
