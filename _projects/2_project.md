@@ -9,12 +9,7 @@ giscus_comments: false
 ---
 
 The website is still in progress. Project details will be added soon.
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
