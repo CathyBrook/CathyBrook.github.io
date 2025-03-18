@@ -5,7 +5,7 @@ description: 2p-3d resonant inelastic X-ray scattering, measured at ID26, ESRF (
 img: assets/img/2p-3d-rixs.png
 importance: 2
 category: work
-giscus_comments: true
+giscus_comments: false
 ---
 
 Every project has a beautiful feature showcase page.
