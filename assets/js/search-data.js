@@ -405,9 +405,9 @@ ninja.data = [{
             },},{id: "news-welcome-to-my-new-website-sparkles-smile",
           title: 'Welcome to my new website! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+          section: "News",},{id: "projects-2p-3d-rixs",
+          title: '2p-3d RIXS',
+          description: "2p-3d resonant inelastic X-ray scattering, measured at ID26, ESRF (Master’s thesis project)",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
             },},{id: "projects-project-4",
