@@ -1,14 +1,8 @@
 github_users:
-  - torvalds
-#  - alshedivat
+  - Cathyhjj
 
-repo_description_lines_max: 1
+repo_description_lines_max: 3
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  # - twbs/bootstrap
-  # - jquery/jquery
-  # - FortAwesome/Font-Awesome
-  # - mathjax/MathJax
-  # - jpswalsh/academicons
+  - Cathyhjj/neighbor
+  - Cathyhjj/XAFS_animations
