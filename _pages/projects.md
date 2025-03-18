@@ -2,7 +2,7 @@
 layout: page
 title: gallery
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: A collection of scientific graphics I have created over the years.
 nav: true
 nav_order: 3
 display_categories: [work]
