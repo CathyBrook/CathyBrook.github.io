@@ -435,6 +435,11 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/MOF/";
+            },},{id: "projects-gallery-xasvsxrd",
+          title: 'gallery XASvsXRD',
+          description: "gallery XASvsXRD",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/gallery_XASvsXRD/";
             },},{id: "projects-mono-scanning-e",
           title: 'mono scanning E',
           description: "",
