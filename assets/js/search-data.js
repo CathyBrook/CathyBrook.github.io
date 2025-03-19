@@ -405,7 +405,12 @@ ninja.data = [{
             },},{id: "news-welcome-to-my-new-website-sparkles-smile",
           title: 'Welcome to my new website! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-2p-3d-rixs",
+          section: "News",},{id: "projects-two-e-xas",
+          title: 'two E XAS',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/1_project/";
+            },},{id: "projects-2p-3d-rixs",
           title: '2p-3d RIXS',
           description: "2p-3d resonant inelastic X-ray scattering, measured at ID26, ESRF (Master’s thesis project)",
           section: "Projects",handler: () => {
@@ -430,6 +435,11 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "projects-two-e-xas",
+          title: 'two E XAS',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/two_E_XAS/";
             },},{
         id: 'social-email',
         title: 'email',
