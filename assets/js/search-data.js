@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-gallery",
           title: "gallery",
-          description: "A collection of scientific graphics I have created over the years.",
+          description: "A collection of scientific graphics I have created over the years. [Webpage construction in progress. More examples will be added soon.]",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
