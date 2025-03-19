@@ -434,7 +434,7 @@ ninja.data = [{
           title: 'two E XAS',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/two%20E%20XAS/";
+              window.location.href = "/projects/two_E_XAS/";
             },},{
         id: 'social-email',
         title: 'email',
