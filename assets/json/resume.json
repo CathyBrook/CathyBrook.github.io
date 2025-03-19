@@ -27,11 +27,10 @@
       "location": "Munich, Germany",
       "url": "",
       "area": "Naturwissenschaften",
-      "studyType": "Ph. D",
+      "studyType": "Ph.D",
       "startDate": "2018-01-01",
       "endDate": "2022-07-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "score": "10"
     },
     {
       "institution": "Ludwig-Maximilians-University Munich (LMU) and Université de Montpellier II (UM2)",
@@ -73,7 +72,7 @@
       "endDate": "2023-09-01"
     },
     {
-      "name": "Department of physics, Technical ",
+      "name": "Department of physics, Technical University of Munich (TUM)",
       "position": "Doctoral researcher",
       "location": "Munich, GERMANY",
       "url": "",
@@ -81,7 +80,7 @@
       "endDate": "2022-07-01"
     },
     {
-      "name": "Short-term research scholar - Stanford Synchrotron Radiation Lightsource (SSRL)",
+      "name": "Stanford Synchrotron Radiation Lightsource (SSRL)",
       "position": "Short-term research scholar",
       "location": "Menlo Park, USA",
       "url": "",
@@ -112,24 +111,24 @@
   "talks": [
     {
       "title": "Conference: International Symposium on Compact Synchrotron X-ray",
-      "date": "2021-07-01",
+      "date": "2024-06",
       "awarder": "Invited talk",
       "url": "",
-      "summary": "International Symposium on Compact Synchrotron X-ray, Sources 2024, Dispersive X-ray Absorption Spectroscopy at the Munich Compact Light Source (MuCLS) and the Advanced Photon Source (APS) "
+      "summary": "Dispersive X-ray Absorption Spectroscopy at the Munich Compact Light Source (MuCLS) and the Advanced Photon Source (APS) "
     },
     {
       "title": "Conference: X-ray Spectroscopy beyond Beamlines",
-      "date": "2021-03-01",
-      "awarder": "",
+      "date": "2021-03",
+      "awarder": "Invited talk",
       "url": "",
-      "summary": "Conference: X-ray Spectroscopy beyond Beamlines, Dispersive X-ray absorption spectroscopy with an inverse Compton source"
+      "summary": "Dispersive X-ray absorption spectroscopy with an inverse Compton source"
     },
     {
       "title": "Webinar: Global XAS Journal Club",
-      "date": "2020-08-01",
-      "awarder": "",
+      "date": "2020-08",
+      "awarder": "Invited talk",
       "url": "",
-      "summary": "Webinar: Global XAS Journal Club, Energy Dispersive X-ray absorption spectroscopy at the Munich Compact Light Source"
+      "summary": "Energy Dispersive X-ray absorption spectroscopy at the Munich Compact Light Source"
     }
   ],
   "certificates": [
