@@ -1,107 +1,100 @@
-{
+{  "basics": {
+  "name": "Juanjuan Huang",
+  "label": "Assistant Beamline Scientist",
+  "image": "",
+  "email": "Juanjuan.huang@anl.gov",
+  "phone": "",
+  "url": "https://alshedivat.github.io/al-folio/",
+  "summary": "A multidisciplinary scientist with a Bachelor’s degree in chemistry, Master’s degree materials science and PhD degree in physics, currently working as a beamline scientist at the Advanced Photon Source, Argonne National Laboratory. My expertise lies in developing synchrotron techniques, particularly X-ray spectroscopy and spectral imaging, and applying them to fundamental scientific research.",
+  "location": {
+    "address": "2712 Broadway St",
+    "postalCode": "CA 94115",
+    "city": "San Francisco",
+    "countryCode": "US",
+    "region": "California"
+  },
+  "profiles": [
+    {
+      "network": "Twitter",
+      "username": "AlbertEinstein",
+      "url": "https://twitter.com/AlbertEinstein"
+    }
+  ]
+},
   "education": [
     {
       "institution": "Physics department, Technical University of Munich (TUM)",
       "location": "Munich, Germany",
       "url": "",
       "area": "Naturwissenschaften",
-      "studyType": "PhD",
+      "studyType": "Ph. D",
       "startDate": "2018-01-01",
       "endDate": "2022-07-01",
       "score": "10",
       "courses": ["Theory of Relativity"]
     },
     {
-      "institution": "Master of Science (dual degree) in Materials Science exploiting Large-Scale Facilities, LMU",
-      "location": "Munich, Germany",
+      "institution": "Ludwig-Maximilians-University Munich (LMU) and Université de Montpellier II (UM2)",
+      "location": "France & Germany",
       "url": "",
       "area": "Materials Science exploiting Large-Scale Facilities",
-      "studyType": "M.A",
+      "studyType": "Master's degree",
       "startDate": "2015-09-01",
       "endDate": "2017-08-01",
       "score": "10",
-      "courses": ["Theory of Relativity"]
+      "courses": ["Erasmus Mundus Scholarship (43,000 €)", "Labex CheMiSyst prize (ranked 1st in the Chemistry department of UM2 for year 2017)"]
     },
     {
       "institution": "Bachelor of Science in Chemistry, Sun Yat-Sen (Zhong Shan) University (SYSU, top 10 universities in China) ",
       "location": "Guangzhou, China",
       "url": "",
-      "area": "Science in Chemistry",
-      "studyType": "B.A",
+      "area": "Chemistry",
+      "studyType": "Bachelor's degree",
       "startDate": "2011-09-01",
       "endDate": "2015-08-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "score": "10"
     }
   ],
-  "basics": {
-    "name": "Juanjuan Huang",
-    "label": "Assistant Beamline Scientist",
-    "image": "",
-    "email": "Juanjuan.huang@anl.gov",
-    "phone": "",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A multidisciplinary scientist with a Bachelor’s degree in chemistry, Master’s degree materials science and PhD degree in physics, currently working as a beamline scientist at the Advanced Photon Source, Argonne National Laboratory. My expertise lies in developing synchrotron techniques, particularly X-ray spectroscopy and spectral imaging, and applying them to fundamental scientific research.",
-    "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
-    },
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
-      }
-    ]
-  },
   "work": [
     {
-      "name": "Assistant beamline scientist – the Advanced Photon Source, Argonne National Laborotary",
-      "position": "Lemont, USA",
+      "name": "the Advanced Photon Source, Argonne National Laborotary",
+      "position": "Assistant beamline scientist",
+      "location": "Lemont, USA",
       "url": "",
       "startDate": "2023-10-01",
-      "endDate": "2025-03-01",
-      "summary": "Group leader: Dr. Shelly Kelly. Develop X-ray technologies on the most brilliant X-ray synchrotron source in the world. Maintain instrumentation/hardware/software related to X-ray spectroscopy techniques. Explore scientific usages of X-ray spectroscopy techniques in diverse fields such as chemistry, biology, medicines, physics. Support large facility users from acdemia and industry.",
-      "highlights": ["Relativity"]
+      "endDate": "present"
     },
     {
-      "name": "Postdoctoral Appointee – the Advanced Photon Source, Argonne National Laborotary",
-      "position": "Lemont, USA",
+      "name": "the Advanced Photon Source, Argonne National Laborotary",
+      "position": "Postdoctoral Appointee",
+      "location": "Lemont, USA",
       "url": "",
       "startDate": "2022-09-01",
-      "endDate": "2023-09-01",
-      "summary": "Supervisor: Dr. George Sterbinsky; Group leader: Dr. Shelly Kelly, Research project entitled Resolving Capacity Fade in Li-Ion Batteries with Single-Shot Chemical Mapping, Implemented dispersive X-ray absorption spectroscopy (DXAS) for fast XANES-imaging on beamline ID25, APS and applied to Li-ion batteries. ",
-      "highlights": ["Relativity"]
+      "endDate": "2023-09-01"
     },
     {
-      "name": "Doctoral researcher – Department of physics, Technical ",
-      "position": "Munich, GERMANY",
+      "name": "Department of physics, Technical ",
+      "position": "Doctoral researcher",
+      "location": "Munich, GERMANY",
       "url": "",
       "startDate": "2018-01-01",
-      "endDate": "2022-07-01",
-      "summary": "Supervisors: Dr. Martin Dierolf, Prof. Dr. Franz Pfeiffer， Research group: Chair of biomedical physics (E17)， Research topic: X-ray absorption spectroscopy at the Munich Compact Light Source.",
-      "highlights": ["Relativity"]
+      "endDate": "2022-07-01"
     },
     {
       "name": "Short-term research scholar - Stanford Synchrotron Radiation Lightsource (SSRL)",
-      "position": "Menlo Park, USA",
+      "position": "Short-term research scholar",
+      "location": "Menlo Park, USA",
       "url": "",
       "startDate": "2019-12-01",
-      "endDate": "2020-03-01",
-      "summary": "Supervisor: Dr. Yijin Liu， Worked on BL 6-2c (transmission X-ray microscope), Hands-on experience on 3d XANES imaging and data analysis",
-      "highlights": ["Relativity"]
+      "endDate": "2020-03-01"
     },
     {
-      "name": "Master’s researcher - European Synchrotron Radiation Facility (ESRF)",
-      "position": "Grenoble, FRANCE",
+      "name": "European Synchrotron Radiation Facility (ESRF)",
+      "position": "Master’s researcher",
+      "location": "Grenoble, FRANCE",
       "url": "",
       "startDate": "2016-05-01",
-      "endDate": "2017-08-01",
-      "summary": "Supervisor: Dr. Marius Retegan; Group leader: Dr. Pieter Glatzel (beamline ID 26), Master’s thesis entitled: The Electronic Structure of Mononuclear Manganese Compounds: Experimental and Theoretical Insights from X-Ray Absorption Spectroscopy and Resonant Inelastic X-Ray Scattering, Internship: XANES, valence-to-core XES simulation of transitional metal containing complexes using ORCA package.",
-      "highlights": ["Relativity"]
+      "endDate": "2017-08-01"
     }
   ],
   "volunteer": [
@@ -120,7 +113,7 @@
     {
       "title": "Conference: International Symposium on Compact Synchrotron X-ray",
       "date": "2021-07-01",
-      "awarder": "",
+      "awarder": "Invited talk",
       "url": "",
       "summary": "International Symposium on Compact Synchrotron X-ray, Sources 2024, Dispersive X-ray Absorption Spectroscopy at the Munich Compact Light Source (MuCLS) and the Advanced Photon Source (APS) "
     },
