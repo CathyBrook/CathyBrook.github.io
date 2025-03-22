@@ -435,6 +435,11 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/MOF/";
+            },},{id: "projects-cad-rail-design",
+          title: 'CAD rail design',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/gallery_CAD_rail_design/";
             },},{id: "projects-gallery-xasvsxrd",
           title: 'gallery XASvsXRD',
           description: "gallery XASvsXRD",
