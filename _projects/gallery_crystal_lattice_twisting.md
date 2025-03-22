@@ -1,6 +1,6 @@
 ---
 layout: page
-title: crystal_lattice_twisting
+title: crystal lattice twisting
 description: 
 img: assets/img/gallery_crystal_lattice_twisting.gif
 importance: 2
