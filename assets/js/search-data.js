@@ -440,6 +440,36 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/gallery_CAD_rail_design/";
+            },},{id: "projects-cad-sample-wheel",
+          title: 'CAD sample wheel',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/gallery_CAD_sample_wheel/";
+            },},{id: "projects-dxas-2d-mapping",
+          title: 'DXAS 2d mapping',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/gallery_DXAS_2d_mapping/";
+            },},{id: "projects-ml48-monochroamtor-detuning-simulation",
+          title: 'ML48 monochroamtor detuning simulation',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/gallery_ML48_monochroamtor_detuning_simulation/";
+            },},{id: "projects-mucls-logo-design",
+          title: 'MuCLS logo design',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/gallery_MuCLS_logo_design/";
+            },},{id: "projects-x-ray-raman-crystal-scanning",
+          title: 'X-ray Raman crystal scanning',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/gallery_X-ray_Raman_crystal_scanning/";
+            },},{id: "projects-xafs2025-logo-design",
+          title: 'XAFS2025 logo design',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/gallery_XAFS2025_logo_design/";
             },},{id: "projects-gallery-xasvsxrd",
           title: 'gallery XASvsXRD',
           description: "gallery XASvsXRD",
@@ -450,6 +480,41 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/gallery_crystal_lattice_twisting/";
+            },},{id: "projects-deep-learning",
+          title: 'deep learning',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/gallery_deep_learning/";
+            },},{id: "projects-dispersive-beam-measured-at-the-mucls",
+          title: 'dispersive beam measured at the MuCLS',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/gallery_dispersive_beam_measured_at_the_MuCLS/";
+            },},{id: "projects-grating-based-phase-contrast-imaging",
+          title: 'grating based phase contrast imaging',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/gallery_grating_based_phase_contrast_imaging/";
+            },},{id: "projects-insitu-xas",
+          title: 'insitu XAS',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/gallery_insitu_XAS/";
+            },},{id: "projects-inverse-compton-scattering",
+          title: 'inverse Compton scattering',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/gallery_inverse_Compton_scattering/";
+            },},{id: "projects-monochroamtor-detune-simulations",
+          title: 'monochroamtor detune simulations',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/gallery_monochroamtor_detune_simulations/";
+            },},{id: "projects-my-hobbies-of-making-fancy-powerpoints",
+          title: 'my hobbies of making fancy powerpoints',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/gallery_my_hobbies_of_making_fancy_powerpoints/";
             },},{id: "projects-mono-scanning-e",
           title: 'mono scanning E',
           description: "",
