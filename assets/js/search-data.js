@@ -441,7 +441,7 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/gallery_XASvsXRD/";
             },},{id: "projects-crystal-lattice-twisting",
-          title: 'crystal_lattice_twisting',
+          title: 'crystal lattice twisting',
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/gallery_crystal_lattice_twisting/";
