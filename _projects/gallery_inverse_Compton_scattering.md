@@ -1,8 +1,8 @@
 ---
 layout: page
-title: CAD rail design
+title: inverse Compton scattering
 description: 
-img: assets/img/gallery_CAD_rail_design.png
+img: assets/img/gallery_inverse_Compton_scattering.jpg
 importance: 2
 category: work
 giscus_comments: false

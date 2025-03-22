@@ -1,8 +1,8 @@
 ---
 layout: page
-title: CAD rail design
+title: deep learning
 description: 
-img: assets/img/gallery_CAD_rail_design.png
+img: assets/img/gallery_deep_learning.png
 importance: 2
 category: work
 giscus_comments: false

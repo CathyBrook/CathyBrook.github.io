@@ -1,8 +1,8 @@
 ---
 layout: page
-title: CAD rail design
+title: XAFS2025 logo design
 description: 
-img: assets/img/gallery_CAD_rail_design.png
+img: assets/img/gallery_XAFS2025_logo_design.png
 importance: 2
 category: work
 giscus_comments: false

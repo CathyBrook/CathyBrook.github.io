@@ -1,8 +1,8 @@
 ---
 layout: page
-title: CAD rail design
+title: DXAS 2d mapping
 description: 
-img: assets/img/gallery_CAD_rail_design.png
+img: assets/img/gallery_DXAS_2d_mapping.gif
 importance: 2
 category: work
 giscus_comments: false

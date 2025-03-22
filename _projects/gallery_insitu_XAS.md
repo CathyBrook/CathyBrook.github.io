@@ -1,8 +1,8 @@
 ---
 layout: page
-title: CAD rail design
+title: insitu XAS
 description: 
-img: assets/img/gallery_CAD_rail_design.png
+img: assets/img/gallery_insitu_XAS.png
 importance: 2
 category: work
 giscus_comments: false
