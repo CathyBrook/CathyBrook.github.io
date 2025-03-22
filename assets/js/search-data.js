@@ -440,6 +440,11 @@ ninja.data = [{
           description: "gallery XASvsXRD",
           section: "Projects",handler: () => {
               window.location.href = "/projects/gallery_XASvsXRD/";
+            },},{id: "projects-crystal-lattice-twisting",
+          title: 'crystal_lattice_twisting',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/gallery_crystal_lattice_twisting/";
             },},{id: "projects-mono-scanning-e",
           title: 'mono scanning E',
           description: "",
