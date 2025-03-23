@@ -9,7 +9,7 @@ profile:
   image: about_personal_photo.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>HUANG JUANJUAN</p>
+    <p>HUANG JUANJUAN (Cathy) </p>
     <p>黄 涓涓</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -26,4 +26,4 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am an Assistant Beamline Scientist at the Advanced Photon Source, Argonne National Laboratory, currently working at the spectroscopy group, supporting and being involved in the beamline activities at 25-ID, 20-BM and 9 BM. With a multidisciplinary background in physics, material science, and chemistry. My research focuses on developing synchrotron techniques, especially regarding X-ray spectroscopy and spectral imaging techniques, and applying them in fundamental science.
+I am an Assistant Beamline Scientist at the Advanced Photon Source, Argonne National Laboratory, currently working at the spectroscopy group (25-ID, 20-BM and 9 BM). With a multidisciplinary background in physics, material science, and chemistry, my research focuses on developing synchrotron techniques, especially regarding X-ray spectroscopy and spectral imaging techniques, and applying them in fundamental science.
