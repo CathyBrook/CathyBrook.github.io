@@ -435,6 +435,11 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/MOF/";
+            },},{id: "projects-3d-hela-cells-imaging",
+          title: '3D HeLa cells imaging',
+          description: "Two-photon excited Z-stack images of 3D HeLa multicellular spheroids (MCSs)",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/gallery_3D_HeLa_cells_imaging/";
             },},{id: "projects-cad-rail-design",
           title: 'CAD rail design',
           description: "",
