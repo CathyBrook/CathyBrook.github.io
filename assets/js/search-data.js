@@ -520,6 +520,11 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/gallery_my_hobbies_of_making_fancy_powerpoints/";
+            },},{id: "projects-two-photon-luminescent-complex",
+          title: 'Two-photon luminescent complex',
+          description: "An overview of two-photon luminescent metal complexes and applications in bioimaging and cancer phototherapy.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/gallery_two_photon_luminescent/";
             },},{id: "projects-mono-scanning-e",
           title: 'mono scanning E',
           description: "",
