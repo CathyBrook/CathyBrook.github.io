@@ -505,6 +505,11 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/gallery_inverse_Compton_scattering/";
+            },},{id: "projects-dft-optimized-molecular-orbital",
+          title: 'DFT-optimized molecular orbital',
+          description: "Molecular orbital of [Mn(II)(CN)6]’s eg and t2g orbitals’ splitting.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/gallery_molecular_orbitals_3d_splitting/";
             },},{id: "projects-monochroamtor-detune-simulations",
           title: 'monochroamtor detune simulations',
           description: "",
