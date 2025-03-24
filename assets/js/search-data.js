@@ -491,8 +491,8 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/gallery_crystal_lattice_twisting/";
             },},{id: "projects-deep-learning",
-          title: 'deep learning',
-          description: "",
+          title: 'Deep learning',
+          description: "U-net convolutional neural network for image segmentation",
           section: "Projects",handler: () => {
               window.location.href = "/projects/gallery_deep_learning/";
             },},{id: "projects-dispersive-beam-measured-at-the-mucls",
