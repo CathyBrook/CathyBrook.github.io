@@ -470,6 +470,11 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/gallery_XAFS2025_logo_design/";
+            },},{id: "projects-xanes-pre-edge-fitting",
+          title: 'XANES pre-edge fitting',
+          description: "Mn compounds measured at ID26, ESRF",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/gallery_XANES_preedge_fitting/";
             },},{id: "projects-gallery-xasvsxrd",
           title: 'gallery XASvsXRD',
           description: "gallery XASvsXRD",
