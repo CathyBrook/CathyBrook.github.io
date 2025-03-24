@@ -475,8 +475,8 @@ ninja.data = [{
           description: "gallery XASvsXRD",
           section: "Projects",handler: () => {
               window.location.href = "/projects/gallery_XASvsXRD/";
-            },},{id: "projects-crystal-lattice-twisting",
-          title: 'crystal lattice twisting',
+            },},{id: "projects-crystal-lattice-distortions",
+          title: 'Crystal lattice distortions',
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/gallery_crystal_lattice_twisting/";
