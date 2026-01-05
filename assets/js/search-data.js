@@ -37,6 +37,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
+        },{id: "nav-people",
+          title: "PEOPLE",
+          description: "I&#39;ve been fortunate to work with the following talented people.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/people/";
+          },
         },{id: "post-a-post-with-image-galleries",
       
         title: "a post with image galleries",
