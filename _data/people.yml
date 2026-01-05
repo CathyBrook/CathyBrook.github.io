@@ -1,0 +1,10 @@
+visiting_students:
+  - name: Xufan Lu
+    photo: people/Xufan_lu.jpg
+    # email: student@example.com
+    website: https://xufanlu.github.io/Xufan_Lu-Joanna/
+    description: >
+      B.Sc. and Master in Information Systems
+      <br>Technical University of Munich, Germany</br>
+    interests: >
+      Building user-friendly and interactive web-based agents.
