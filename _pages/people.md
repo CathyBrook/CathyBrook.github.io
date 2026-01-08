@@ -7,11 +7,11 @@ nav: true
 nav_order: 5
 ---
  
-## Visiting students
+## Research Aide
 
-{% if site.data.people.visiting_students %}
+{% if site.data.people.research_aide %}
 <div class="row">
-    {% for person in site.data.people.visiting_students %}
+    {% for person in site.data.people.research_aide %}
     <div class="col-sm-12 clearfix">
         <div class="row">
             <div class="col-sm-3 text-center">
