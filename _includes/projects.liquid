@@ -2,14 +2,16 @@
   <!-- <a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}"> -->
     <div class="card h-100 hoverable">
       {% if project.img %}
-        {%
-          include figure.liquid
-          loading="eager"
-          path=project.img
-          sizes = "250px"
-          alt="project thumbnail"
-          class="card-img-top"
-        %}
+        <a href="{{ project.img | relative_url }}" data-lightbox="gallery" data-title="{{ project.title }}{% if project.description %} - {{ project.description }}{% endif %}">
+          {%
+            include figure.liquid
+            loading="eager"
+            path=project.img
+            sizes = "250px"
+            alt="project thumbnail"
+            class="card-img-top"
+          %}
+        </a>
       {% endif %}
       <div class="card-body">
         <h2 class="card-title">{{ project.title }}</h2>
