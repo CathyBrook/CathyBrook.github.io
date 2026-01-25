@@ -563,6 +563,13 @@ ninja.data = [{
           window.open("https://www.linkedin.com/in/juanjuan-huang", "_blank");
         },
       },{
+        id: 'social-x',
+        title: 'X',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://twitter.com/JuanjuanCathy", "_blank");
+        },
+      },{
         id: 'social-researchgate',
         title: 'ResearchGate',
         section: 'Socials',
