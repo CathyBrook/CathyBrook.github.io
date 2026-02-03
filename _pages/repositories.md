@@ -11,7 +11,7 @@ nav_order: 4
 
 <div class="row">
   <div class="col-sm-6 mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/software_EasyXASCalc.PNG" title="EasyXASCalc" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/software/software_EasyXASCalc.PNG" title="EasyXASCalc" class="img-fluid rounded z-depth-1" %}
   </div>
   <div class="col-sm-6 mt-3 mt-md-0">
     <h3 class="card-title"><a href="https://easyxascalc.onrender.com/">EasyXASCalc</a></h3>
