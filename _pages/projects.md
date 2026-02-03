@@ -1,7 +1,7 @@
 ---
 layout: page
 title: gallery
-permalink: /projects/
+permalink: /gallery/
 description: A collection of scientific graphics I have created over the years. [Webpage construction in progress. More examples will be added soon.]
 nav: true
 nav_order: 3
