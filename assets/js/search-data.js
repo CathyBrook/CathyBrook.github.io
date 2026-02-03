@@ -23,12 +23,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "nav-repositories",
-          title: "repositories",
+        },{id: "nav-software",
+          title: "software",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/repositories/";
+            window.location.href = "/software/";
           },
         },{id: "nav-cv",
           title: "cv",
@@ -542,13 +542,6 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/two_E_XAS/";
             },},{
-        id: 'social-email',
-        title: 'email',
-        section: 'Socials',
-        handler: () => {
-          window.open("mailto:%4A%75%61%6E%6A%75%61%6E.%68%75%61%6E%67@%61%6E%6C.%67%6F%76", "_blank");
-        },
-      },{
         id: 'social-github',
         title: 'GitHub',
         section: 'Socials',
