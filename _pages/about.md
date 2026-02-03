@@ -9,8 +9,9 @@ profile:
   image: about_personal_photo.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p style="font-family: Georgia, serif;">HUANG JUANJUAN (Cathy)</p>
-    <p style="font-family: "KaiTi", "STKaiti", serif;">黄 涓涓</p>
+    <img src="/assets/img/about_personal_signature.png" alt="Signature" class="img-fluid">
+
+banner: assets/img/banner.png
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -26,12 +27,10 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-  - 🟪 **I am** an enthusiastic early-career scientist without borders, with a research journey spanning three continents — Asia, Europe, and America, and an interdisciplinary background fused with high-energy physics, chemistry and materials science.
+- 🟪 **I am** an enthusiastic early-career scientist without borders, with a research journey spanning three continents — Asia, Europe, and America, and an interdisciplinary background fused with high-energy physics, chemistry and materials science.
 
-  - 🟨 **I dedicate** to push the extreme of X-ray techniques. For eight years, I have devoted myself to developing fast, ms time-scale X-ray Absorption Spectroscopy (dispersive XAS), while exploring how AI and automation can bring intelligence and scalability into experimental science.
+- 🟨 **I dedicate** to push the extreme of X-ray techniques. For eight years, I have devoted myself to developing fast, ms time-scale X-ray Absorption Spectroscopy (dispersive XAS), while exploring how AI and automation can bring intelligence and scalability into experimental science.
 
-  - 🟦 **I believe** art is a science just like science is also an art. Both share a beauty that transcends boundaries, the symmetry in randomness, the harmony in disorders.. I pursue work that is a piece of art, rather than just good results.
+- 🟦 **I believe** art is a science just like science is also an art. Both share a beauty that transcends boundaries, the symmetry in randomness, the harmony in disorders.. I pursue work that is a piece of art, rather than just good results.
 
-  - 🟥 **I seek** for a simple but unique life. "我们终此一生，就是要摆脱他人的期待，找到真正的自己" (*Our lifelong journey is to break free from others’ expectations and discover our truest selves.*)
-
-
+- 🟥 **I seek** for a simple but unique life. "我们终此一生，就是要摆脱他人的期待，找到真正的自己" (*Our lifelong journey is to break free from others’ expectations and discover our truest selves.*)
