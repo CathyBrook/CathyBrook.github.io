@@ -21,7 +21,7 @@ ninja.data = [{
           description: "A collection of scientific graphics I have created over the years. [Webpage construction in progress. More examples will be added soon.]",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/gallery/";
+            window.location.href = "/projects/";
           },
         },{id: "nav-software",
           title: "software",
