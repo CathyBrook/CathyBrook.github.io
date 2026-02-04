@@ -27,7 +27,7 @@ nav_order: 5
                 <h3>
                     {{ person.name }}
                     {% if person.website %}
-                    <a href="{{ person.website }}" target="_blank" style="text-decoration: none;" title="Homepage">🔗</a>
+                    <a href="{{ person.website }}" target="_blank" style="text-decoration: none;" title="Homepage"><i class="fa-solid fa-globe" style="font-size: 0.8rem;"></i></a>
                     {% endif %}
                 </h3>
                 <p><em>{{ person.info }}</em></p>
