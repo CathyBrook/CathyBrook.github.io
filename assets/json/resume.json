@@ -5,7 +5,7 @@
   "email": "Juanjuan.huang@anl.gov",
   "phone": "",
   "url": "https://www.anl.gov/profile/juanjuan-huang",
-  "summary": "A multidisciplinary scientist with a Bachelor’s degree in chemistry, Master’s degree materials science and PhD degree in physics, currently working as a beamline scientist at the Advanced Photon Source, Argonne National Laboratory. My expertise lies in developing synchrotron techniques, particularly X-ray spectroscopy and spectral imaging, and applying them to fundamental scientific research.",
+  "summary": "Juanjuan Huang, Ph.D., is an Assistant Physicist at the Advanced Photon Source, Argonne National Laboratory. Her work focuses on developing advanced X-ray spectroscopy and spectral imaging techniques, with an emphasis on fast, spatially resolved, and data-intensive experiments for fundamental science. She is particularly interested in integrating AI and automation into X-ray science to enable smarter experiments and scalable analysis for chemistry & materials research.",
   "location": {
     "address": "2712 Broadway St",
     "postalCode": "CA 94115",
@@ -24,7 +24,7 @@
   "education": [
     {
       "institution": "Physics department, Technical University of Munich (TUM)",
-      "location": "Munich, Germany",
+      "location": "Munich, GERMANY",
       "url": "https://drive.google.com/file/d/19jcgMIaL2gQULCHDOmergQClEo2oD_i3/view?usp=sharing",
       "area": "<a href='https://drive.google.com/file/d/19jcgMIaL2gQULCHDOmergQClEo2oD_i3/view?usp=sharing'>X-ray Physics (PhD thesis)</a>",
       "studyType": "Ph.D",
@@ -34,7 +34,7 @@
     },
     {
       "institution": "Ludwig-Maximilians-University Munich (LMU) and Université de Montpellier II (UM2)",
-      "location": "France & Germany",
+      "location": "France & GERMANY",
       "url": "",
       "area": "Materials Science exploiting Large-Scale Facilities",
       "studyType": "Master's degree",
@@ -110,25 +110,53 @@
   ],
   "talks": [
     {
+      "title": "Seminar: Department of Nuclear Science and Engineering, Massachusetts Institute of Technology",
+      "location": "Boston, USA",
+      "date": "2025-06",
+      "url": "",
+      "summary": "\"X-ray Absorption Spectroscopy (XAS): Probing Local Structure and Beyond.\""
+    },
+    {
+      "title": "Seminar: Walker Department of Mechanical Engineering, The University of Texas at Austin",
+      "location": "Austin, USA",
+      "date": "2025-03",
+      "url": "",
+      "summary": "\"Dispersive X-ray Absorption Spectroscopy at the Munich Compact Light Source (MuCLS) and the Advanced Photon Source (APS)\""
+    },
+    {
       "title": "Conference: International Symposium on Compact Synchrotron X-ray",
+      "location": "Online",
       "date": "2024-06",
-      "awarder": "Invited talk",
       "url": "",
       "summary": "Dispersive X-ray Absorption Spectroscopy at the Munich Compact Light Source (MuCLS) and the Advanced Photon Source (APS) "
     },
     {
       "title": "Conference: X-ray Spectroscopy beyond Beamlines",
+      "location": "Online",
       "date": "2021-03",
-      "awarder": "Invited talk",
       "url": "",
       "summary": "Dispersive X-ray absorption spectroscopy with an inverse Compton source"
     },
     {
       "title": "Webinar: Global XAS Journal Club",
+      "location": "Online",
       "date": "2020-08",
-      "awarder": "Invited talk",
       "url": "",
       "summary": "Energy Dispersive X-ray absorption spectroscopy at the Munich Compact Light Source"
+    },
+    {
+      "title": "Seminar: Physics Department, The University of Wurzburg",
+      "location": "Wurzburg, GERMANY",
+      "date": "2019-03",
+      "url": "",
+      "summary": "\"Energy Dispersive X-ray absorption spectroscopy at the Munich Compact Light Source\""
+    },
+    {
+      "title": "Seminar: Wigner Research Centre for Physics, The Hungarian Academy of Sciences",
+      "location": "Budapest, Hungary",
+      "date": "2018-09",
+      "url": "",
+      "summary": "\"Energy Dispersive X-ray absorption spectroscopy at the Munich Compact Light Source\""
     }
   ],
   "certificates": [
