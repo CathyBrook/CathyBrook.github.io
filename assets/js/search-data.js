@@ -451,6 +451,11 @@ ninja.data = [{
           description: "The first battery 2D mapping I did at APS. I didn&#39;t sleep the whole night cause that was the last day before APS&#39;s upgrade!",
           section: "Projects",handler: () => {
               window.location.href = "/projects/gallery_DXAS_2d_mapping/";
+            },},{id: "projects-exafs-wavelet-transform",
+          title: 'EXAFS Wavelet Transform',
+          description: "Wavelet transform analysis for Extended X-ray Absorption Fine Structure (EXAFS) data.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/gallery_EXAFS_wavelet/";
             },},{id: "projects-ml48-monochroamtor-detuning-simulation",
           title: 'ML48 monochroamtor detuning simulation',
           description: "",
@@ -526,6 +531,16 @@ ninja.data = [{
           description: "Can you believe the 3d animations are made inside powerpoint! (the sample model is real! from a reconstructed CT scan of a sea cumcumber by Simone Ferstl)",
           section: "Projects",handler: () => {
               window.location.href = "/projects/gallery_my_hobbies_of_making_fancy_powerpoints/";
+            },},{id: "projects-xas-publications-by-year",
+          title: 'XAS Publications by Year',
+          description: "A visualization showing the growth trend of X-ray Absorption Spectroscopy (XAS) publications over the years.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/gallery_no_of_XAS_publications_by_year/";
+            },},{id: "projects-plants-x-ray-imaging",
+          title: 'Plants X-ray imaging',
+          description: "High-resolution X-ray imaging rendering of plant structures.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/gallery_plants_render/";
             },},{id: "projects-two-photon-luminescent-complex",
           title: 'Two-photon luminescent complex',
           description: "An overview of two-photon luminescent metal complexes and applications in bioimaging and cancer phototherapy.",
