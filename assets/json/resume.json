@@ -110,6 +110,13 @@
   ],
   "talks": [
     {
+      "title": "Conference: APS Global Physics Summit 2026",
+      "location": "Denver, USA",
+      "date": "2026-03",
+      "url": "https://meetings-archive.aps.org/smt/2026/mar-a42/1/",
+      "summary": "\"Toward Intelligent X-ray Spectroscopy: An Agentic AI Platform for Automated and Multimodal Analysis\""
+    },
+    {
       "title": "Seminar: Department of Nuclear Science and Engineering, Massachusetts Institute of Technology",
       "location": "Boston, USA",
       "date": "2025-06",
