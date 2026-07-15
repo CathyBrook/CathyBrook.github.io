@@ -23,9 +23,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/gallery/";
           },
-        },{id: "nav-software",
-          title: "software",
-          description: "",
+        },{id: "nav-work-development",
+          title: "WORK DEVELOPMENT",
+          description: "Scientific software, visual tools, and thoughtful experiments.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/software/";
