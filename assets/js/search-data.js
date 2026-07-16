@@ -44,18 +44,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/people/";
           },
-        },{id: "post-a-post-with-image-galleries",
-      
-        title: "a post with image galleries",
-      
-      description: "this is what included image galleries could look like",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2024/photo-gallery/";
-        
-      },
-    },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
+        },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
       
         title: 'Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
       
@@ -119,17 +108,6 @@ ninja.data = [{
       handler: () => {
         
           window.location.href = "/blog/2024/code-diff/";
-        
-      },
-    },{id: "post-a-post-with-advanced-image-components",
-      
-        title: "a post with advanced image components",
-      
-      description: "this is what advanced image components could look like",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2024/advanced-images/";
         
       },
     },{id: "post-a-post-with-vega-lite",
@@ -363,17 +341,6 @@ ninja.data = [{
           window.location.href = "/blog/2015/code/";
         
       },
-    },{id: "post-a-post-with-images",
-      
-        title: "a post with images",
-      
-      description: "this is what included images could look like",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2015/images/";
-        
-      },
     },{id: "post-a-post-with-formatting-and-links",
       
         title: "a post with formatting and links",
@@ -385,12 +352,7 @@ ninja.data = [{
           window.location.href = "/blog/2015/formatting-and-links/";
         
       },
-    },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
+    },{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
           section: "News",},{id: "news-a-long-announcement-with-details",
@@ -406,26 +368,6 @@ ninja.data = [{
           description: "2p-3d resonant inelastic X-ray scattering, measured at ID26, ESRF (Master’s thesis project)",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
             },},{id: "projects-mof",
           title: 'MOF',
           description: "A metal organic framework (made with Crystal Maker)",

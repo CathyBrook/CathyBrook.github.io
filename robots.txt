@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://juanjuanhuang-cathy.github.io# the base hostname & protocol for your site/sitemap.xml
+Sitemap: https://juanjuanhuang-cathy.github.io/sitemap.xml
