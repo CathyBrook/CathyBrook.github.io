@@ -48,6 +48,7 @@ jobs:
         uses: lycheeverse/lychee-action@v2.1.0
         with:
           fail: true
+          lycheeVersion: v0.24.2
           # Ignore template documentation, sample posts, and pages with unrendered Liquid.
           # Their rendered output is covered by broken-links-site.yml after deployment.
           args: >-
