@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Physicist at the Advanced Photon Source, Argonne National Laboratory, USA 
+subtitle: Physicist at the Advanced Photon Source, Argonne National Laboratory, USA
 
 profile:
   align: right

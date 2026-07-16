@@ -6,10 +6,11 @@ description: I've been fortunate to work with the following talented people.
 nav: true
 nav_order: 5
 ---
- 
+
 ## Research Aide
 
 {% if site.data.people.research_aide %}
+
 <div class="row">
     {% for person in site.data.people.research_aide %}
     <div class="col-sm-12 clearfix">

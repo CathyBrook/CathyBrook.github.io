@@ -1,7 +1,7 @@
 ---
 layout: page
 title: ML48 monochroamtor detuning simulation
-description: 
+description:
 img: assets/img/gallery/gallery_ML48_monochroamtor_detuning_simulation.gif
 importance: 2
 category: work

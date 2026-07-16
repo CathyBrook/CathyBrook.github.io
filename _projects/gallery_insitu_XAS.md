@@ -1,7 +1,7 @@
 ---
 layout: page
 title: insitu XAS
-description: 
+description:
 img: assets/img/gallery/gallery_insitu_XAS.png
 importance: 2
 category: work

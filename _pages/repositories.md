@@ -436,6 +436,7 @@ _styles: |
         </div>
       </article>
     </div>
+
   </section>
 
   <section class="portfolio-section" aria-labelledby="personal-project-heading">
@@ -482,5 +483,6 @@ _styles: |
     </div>
 
     <p class="portfolio-note"><strong>Built locally, shown honestly.</strong> Every preview above comes from the corresponding project running on this machine.</p>
+
   </section>
 </div>

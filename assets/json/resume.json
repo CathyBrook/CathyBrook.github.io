@@ -1,26 +1,27 @@
-{  "basics": {
-  "name": "Juanjuan Huang",
-  "label": "Assistant Physicist",
-  "image": "",
-  "email": "Juanjuan.huang@anl.gov",
-  "phone": "",
-  "url": "https://www.anl.gov/profile/juanjuan-huang",
-  "summary": "Juanjuan Huang, Ph.D., is an Assistant Physicist at the Advanced Photon Source, Argonne National Laboratory. Her work focuses on developing advanced X-ray spectroscopy and spectral imaging techniques, with an emphasis on fast, spatially resolved, and data-intensive experiments for fundamental science. She is particularly interested in integrating AI and automation into X-ray science to enable smarter experiments and scalable analysis for chemistry & materials research.",
-  "location": {
-    "address": "2712 Broadway St",
-    "postalCode": "CA 94115",
-    "city": "San Francisco",
-    "countryCode": "US",
-    "region": "California"
+{
+  "basics": {
+    "name": "Juanjuan Huang",
+    "label": "Assistant Physicist",
+    "image": "",
+    "email": "Juanjuan.huang@anl.gov",
+    "phone": "",
+    "url": "https://www.anl.gov/profile/juanjuan-huang",
+    "summary": "Juanjuan Huang, Ph.D., is an Assistant Physicist at the Advanced Photon Source, Argonne National Laboratory. Her work focuses on developing advanced X-ray spectroscopy and spectral imaging techniques, with an emphasis on fast, spatially resolved, and data-intensive experiments for fundamental science. She is particularly interested in integrating AI and automation into X-ray science to enable smarter experiments and scalable analysis for chemistry & materials research.",
+    "location": {
+      "address": "2712 Broadway St",
+      "postalCode": "CA 94115",
+      "city": "San Francisco",
+      "countryCode": "US",
+      "region": "California"
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "AlbertEinstein",
+        "url": "https://twitter.com/AlbertEinstein"
+      }
+    ]
   },
-  "profiles": [
-    {
-      "network": "Twitter",
-      "username": "AlbertEinstein",
-      "url": "https://twitter.com/AlbertEinstein"
-    }
-  ]
-},
   "education": [
     {
       "institution": "Physics department, Technical University of Munich (TUM)",

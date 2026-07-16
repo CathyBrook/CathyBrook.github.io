@@ -1,7 +1,7 @@
 ---
 layout: page
 title: two-energy XAS
-description: This is one of my favorate science work that is able to measure two XAS simultaneously using a lab source! But it's too niche, so actually got almost no citations. 
+description: This is one of my favorate science work that is able to measure two XAS simultaneously using a lab source! But it's too niche, so actually got almost no citations.
 img: assets/img/gallery/gallery_two_E_XAS.png
 importance: 2
 category: work
