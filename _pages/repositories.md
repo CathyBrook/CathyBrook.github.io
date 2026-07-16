@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /software/
-title: WORK DEVELOPMENT
+title: FUN PROJECTS
 description: Scientific software, visual tools, and thoughtful experiments.
 nav: true
 nav_order: 4
@@ -12,6 +12,8 @@ _styles: |
     --portfolio-blue: #5676b8;
     --portfolio-green: #4f7d68;
     --portfolio-border: var(--global-divider-color);
+    --portfolio-shadow: 0 2px 5px rgba(0, 0, 0, 0.16), 0 2px 10px rgba(0, 0, 0, 0.12);
+    --portfolio-shadow-hover: 0 8px 17px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
     margin-top: 1.4rem;
   }
 
@@ -24,11 +26,12 @@ _styles: |
     overflow: hidden;
     padding: clamp(1.6rem, 4vw, 2.8rem);
     border: 1px solid var(--portfolio-border);
-    border-radius: 24px;
+    border-radius: 0;
     background:
       radial-gradient(circle at 88% 12%, rgba(118, 85, 166, 0.18), transparent 32%),
       linear-gradient(135deg, rgba(86, 118, 184, 0.09), transparent 55%),
       var(--global-card-bg-color);
+    box-shadow: var(--portfolio-shadow);
   }
 
   .portfolio-intro::after {
@@ -131,16 +134,15 @@ _styles: |
     min-width: 0;
     overflow: hidden;
     border: 1px solid var(--portfolio-border);
-    border-radius: 19px;
+    border-radius: 0;
     background: var(--global-card-bg-color);
-    box-shadow: 0 12px 34px rgba(18, 24, 38, 0.045);
-    transition: transform 180ms ease, border-color 180ms ease, box-shadow 180ms ease;
+    box-shadow: var(--portfolio-shadow);
+    transition: border-color 180ms ease, box-shadow 180ms ease;
   }
 
   .project-card:hover {
-    transform: translateY(-4px);
     border-color: rgba(118, 85, 166, 0.38);
-    box-shadow: 0 18px 42px rgba(18, 24, 38, 0.085);
+    box-shadow: var(--portfolio-shadow-hover);
   }
 
   .project-preview {
@@ -287,9 +289,10 @@ _styles: |
     margin-top: 1.4rem;
     padding: 1rem 1.15rem;
     border: 1px solid var(--portfolio-border);
-    border-radius: 14px;
+    border-radius: 0;
     color: var(--global-text-color-light);
     background: var(--portfolio-accent-soft);
+    box-shadow: var(--portfolio-shadow);
     font-size: 0.84rem;
     line-height: 1.5;
   }
@@ -305,8 +308,9 @@ _styles: |
       var(--global-card-bg-color);
   }
 
-  html[data-theme="dark"] .project-card {
-    box-shadow: none;
+  html[data-theme="dark"] .work-portfolio {
+    --portfolio-shadow: 0 2px 5px rgba(0, 0, 0, 0.38), 0 2px 10px rgba(0, 0, 0, 0.3);
+    --portfolio-shadow-hover: 0 8px 17px rgba(0, 0, 0, 0.46), 0 6px 20px rgba(0, 0, 0, 0.4);
   }
 
   @media (max-width: 767px) {
@@ -358,11 +362,11 @@ _styles: |
     </div>
   </section>
 
-  <section class="portfolio-section" aria-labelledby="work-development-heading">
+  <section class="portfolio-section" aria-labelledby="fun-projects-heading">
     <header class="portfolio-section-header">
       <div>
         <p class="section-kicker">01 · Research &amp; engineering</p>
-        <h2 id="work-development-heading">WORK DEVELOPMENT</h2>
+        <h2 id="fun-projects-heading">FUN PROJECTS</h2>
       </div>
       <p>Practical software for dispersive XAS design, data reduction, experiment preparation, and scientific communication.</p>
     </header>
