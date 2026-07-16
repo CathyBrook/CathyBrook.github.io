@@ -62,10 +62,13 @@ jobs:
             --exclude-path _pages/about_einstein.md
             --exclude-path _pages/blog.md
             --exclude-path _pages/people.md
+            --exclude-path _posts/2015-05-15-images.md
             --exclude-path _posts/2015-07-15-code.md
             --exclude-path _posts/2015-10-20-math.md
             --exclude-path _posts/2018-12-22-distill.md
             --exclude-path _posts/2023-04-24-videos.md
             --exclude-path _posts/2023-05-12-custom-blockquotes.md
+            --exclude-path _posts/2024-01-27-advanced-images.md
+            --exclude-path _posts/2024-12-04-photo-gallery.md
             --exclude-path _books/the_godfather.md
             --verbose --no-progress './**/*.md' './**/*.html'
