@@ -1,15 +1,13 @@
 ---
 layout: page
 permalink: /software/
-title: FUN PROJECTS
+title: SOFTWARE
 description: Scientific software, visual tools, and thoughtful experiments.
 nav: true
 nav_order: 4
 _styles: |
   .work-portfolio {
     --portfolio-accent: #7655a6;
-    --portfolio-accent-soft: rgba(118, 85, 166, 0.12);
-    --portfolio-blue: #5676b8;
     --portfolio-green: #4f7d68;
     --portfolio-border: var(--global-divider-color);
     --portfolio-shadow: 0 2px 5px rgba(0, 0, 0, 0.16), 0 2px 10px rgba(0, 0, 0, 0.12);
@@ -17,35 +15,6 @@ _styles: |
     margin-top: 1.4rem;
   }
 
-  .portfolio-intro {
-    position: relative;
-    display: grid;
-    grid-template-columns: minmax(0, 1.55fr) minmax(250px, 0.8fr);
-    gap: 2rem;
-    align-items: end;
-    overflow: hidden;
-    padding: clamp(1.6rem, 4vw, 2.8rem);
-    border: 1px solid var(--portfolio-border);
-    border-radius: 0;
-    background:
-      radial-gradient(circle at 88% 12%, rgba(118, 85, 166, 0.18), transparent 32%),
-      linear-gradient(135deg, rgba(86, 118, 184, 0.09), transparent 55%),
-      var(--global-card-bg-color);
-    box-shadow: var(--portfolio-shadow);
-  }
-
-  .portfolio-intro::after {
-    content: "";
-    position: absolute;
-    width: 180px;
-    height: 180px;
-    right: -85px;
-    bottom: -105px;
-    border: 1px solid rgba(118, 85, 166, 0.32);
-    border-radius: 50%;
-  }
-
-  .portfolio-eyebrow,
   .section-kicker,
   .project-type {
     margin: 0;
@@ -56,48 +25,12 @@ _styles: |
     text-transform: uppercase;
   }
 
-  .portfolio-lede {
-    max-width: 720px;
-    margin: 0.65rem 0 0;
-    font-size: clamp(1.35rem, 3vw, 2.15rem);
-    font-weight: 500;
-    line-height: 1.25;
-    letter-spacing: -0.025em;
-  }
-
-  .portfolio-stats {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 0.65rem;
-    position: relative;
-    z-index: 1;
-  }
-
-  .portfolio-stat {
-    min-width: 0;
-    padding: 0.85rem 0.65rem;
-    border-top: 1px solid var(--portfolio-border);
-  }
-
-  .portfolio-stat strong,
-  .portfolio-stat span {
-    display: block;
-  }
-
-  .portfolio-stat strong {
-    margin-bottom: 0.22rem;
-    font-size: 1.15rem;
-  }
-
-  .portfolio-stat span {
-    color: var(--global-text-color-light);
-    font-size: 0.7rem;
-    line-height: 1.3;
-    text-transform: uppercase;
-  }
-
   .portfolio-section {
     margin-top: clamp(3.5rem, 8vw, 6rem);
+  }
+
+  .portfolio-section:first-child {
+    margin-top: 1.4rem;
   }
 
   .portfolio-section-header {
@@ -282,61 +215,18 @@ _styles: |
     transform: translate(2px, -2px);
   }
 
-  .portfolio-note {
-    display: flex;
-    gap: 0.85rem;
-    align-items: center;
-    margin-top: 1.4rem;
-    padding: 1rem 1.15rem;
-    border: 1px solid var(--portfolio-border);
-    border-radius: 0;
-    color: var(--global-text-color-light);
-    background: var(--portfolio-accent-soft);
-    box-shadow: var(--portfolio-shadow);
-    font-size: 0.84rem;
-    line-height: 1.5;
-  }
-
-  .portfolio-note strong {
-    color: var(--global-text-color);
-  }
-
-  html[data-theme="dark"] .portfolio-intro {
-    background:
-      radial-gradient(circle at 88% 12%, rgba(68, 168, 194, 0.16), transparent 32%),
-      linear-gradient(135deg, rgba(118, 85, 166, 0.12), transparent 55%),
-      var(--global-card-bg-color);
-  }
-
   html[data-theme="dark"] .work-portfolio {
     --portfolio-shadow: 0 2px 5px rgba(0, 0, 0, 0.38), 0 2px 10px rgba(0, 0, 0, 0.3);
     --portfolio-shadow-hover: 0 8px 17px rgba(0, 0, 0, 0.46), 0 6px 20px rgba(0, 0, 0, 0.4);
   }
 
   @media (max-width: 767px) {
-    .portfolio-intro,
     .portfolio-section-header {
       grid-template-columns: 1fr;
     }
 
-    .portfolio-stats {
-      max-width: 420px;
-    }
-
     .project-grid {
       grid-template-columns: 1fr;
-    }
-  }
-
-  @media (max-width: 420px) {
-    .portfolio-stats {
-      grid-template-columns: 1fr;
-    }
-
-    .portfolio-stat {
-      display: flex;
-      align-items: baseline;
-      justify-content: space-between;
     }
   }
 
@@ -350,23 +240,11 @@ _styles: |
 ---
 
 <div class="work-portfolio">
-  <section class="portfolio-intro" aria-label="Portfolio overview">
-    <div>
-      <p class="portfolio-eyebrow">Selected builds · science to screen</p>
-      <p class="portfolio-lede">I build open-source tools that turn X-ray experiments, scientific models, and small personal ideas into interfaces people can actually use.</p>
-    </div>
-    <div class="portfolio-stats" aria-label="Portfolio summary">
-      <div class="portfolio-stat"><strong>04</strong><span>Research tools</span></div>
-      <div class="portfolio-stat"><strong>02</strong><span>Personal projects</span></div>
-      <div class="portfolio-stat"><strong>Open</strong><span>Source first</span></div>
-    </div>
-  </section>
-
-  <section class="portfolio-section" aria-labelledby="fun-projects-heading">
+  <section class="portfolio-section" aria-labelledby="research-tools-heading">
     <header class="portfolio-section-header">
       <div>
         <p class="section-kicker">01 · Research &amp; engineering</p>
-        <h2 id="fun-projects-heading">FUN PROJECTS</h2>
+        <h2 id="research-tools-heading">OPEN-SOURCE RESEARCH TOOLS</h2>
       </div>
       <p>Practical software for dispersive XAS design, data reduction, experiment preparation, and scientific communication.</p>
     </header>
@@ -443,7 +321,7 @@ _styles: |
     <header class="portfolio-section-header">
       <div>
         <p class="section-kicker">02 · Curiosity &amp; craft</p>
-        <h2 id="personal-project-heading">PERSONAL PROJECT</h2>
+        <h2 id="personal-project-heading">PERSONAL FUN PROJECTS</h2>
       </div>
       <p>Small explorations in memory, voice, motion, and browser-native visual expression.</p>
     </header>
@@ -481,8 +359,6 @@ _styles: |
         </div>
       </article>
     </div>
-
-    <p class="portfolio-note"><strong>Built locally, shown honestly.</strong> Every preview above comes from the corresponding project running on this machine.</p>
 
   </section>
 </div>
