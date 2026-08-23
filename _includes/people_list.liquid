@@ -1,0 +1,62 @@
+{% if include.people %}
+  <div class="row">
+    {% for person in include.people %}
+      <div class="col-sm-12 clearfix">
+        <div class="row">
+          <div class="col-sm-3 text-center">
+            {% if person.photo %}
+              {% if person.website %}
+                <a href="{{ person.website }}" target="_blank" rel="noopener noreferrer">
+                  <img
+                    src="{{ person.photo | prepend: '/assets/img/' | relative_url }}"
+                    class="people-photo img-fluid rounded z-depth-1"
+                    alt="{{ person.name }}"
+                  >
+                </a>
+              {% else %}
+                <img
+                  src="{{ person.photo | prepend: '/assets/img/' | relative_url }}"
+                  class="people-photo img-fluid rounded z-depth-1"
+                  alt="{{ person.name }}"
+                >
+              {% endif %}
+            {% else %}
+              <div class="people-photo people-photo-placeholder rounded z-depth-1" aria-hidden="true">
+                <i class="fa-solid fa-user"></i>
+              </div>
+            {% endif %}
+          </div>
+
+          <div class="col-sm-9">
+            <h3>
+              {{ person.name }}
+              {% if person.website %}
+                <a href="{{ person.website }}" target="_blank" rel="noopener noreferrer" style="text-decoration: none" title="Homepage">
+                  <i class="fa-solid fa-globe" style="font-size: 0.8rem"></i>
+                </a>
+              {% endif %}
+            </h3>
+
+            <p>
+              <strong>{{ person.role }}</strong><br>
+              {{ person.affiliation -}}
+              {% if person.field %}
+                <br>
+                {{ person.field -}}
+              {% endif %}
+              <br>
+              <span class="text-muted">{{ person.dates }}</span>
+            </p>
+
+            {% if person.current_role %}
+              <p>
+                <strong>Current position:</strong> {{ person.current_role }}, <strong>{{ person.current_company }}</strong>
+              </p>
+            {% endif %}
+          </div>
+        </div>
+        <hr>
+      </div>
+    {% endfor %}
+  </div>
+{% endif %}

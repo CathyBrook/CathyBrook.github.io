@@ -5,52 +5,33 @@ title: PEOPLE
 description: I've been fortunate to work with the following talented people.
 nav: true
 nav_order: 5
+_styles: |
+  .people-photo {
+    width: 100%;
+    max-width: 220px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+  }
+
+  .people-photo-placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1rem;
+    border: 1px solid var(--global-divider-color);
+    color: var(--global-text-color-light);
+    background: var(--global-card-bg-color);
+    font-size: 3.5rem;
+  }
 ---
 
-## Research Aide
+## Current Members
 
-{% if site.data.people.research_aide %}
+{% include people_list.liquid people=site.data.people.current_members %}
 
-<div class="row">
-    {% for person in site.data.people.research_aide %}
-    <div class="col-sm-12 clearfix">
-        <div class="row">
-            <div class="col-sm-3 text-center">
-                {% if person.website %}
-                <a href="{{ person.website }}" target="_blank">
-                    <img src="{{ person.photo | prepend: '/assets/img/' | relative_url }}" class="img-fluid rounded z-depth-1" alt="{{ person.name }}">
-                </a>
-                {% else %}
-                <img src="{{ person.photo | prepend: '/assets/img/' | relative_url }}" class="img-fluid rounded z-depth-1" alt="{{ person.name }}">
-                {% endif %}
-            </div>
-            <div class="col-sm-9">
-                <h3>
-                    {{ person.name }}
-                    {% if person.website %}
-                    <a href="{{ person.website }}" target="_blank" style="text-decoration: none;" title="Homepage"><i class="fa-solid fa-globe" style="font-size: 0.8rem;"></i></a>
-                    {% endif %}
-                </h3>
-                <p><em>{{ person.info }}</em></p>
-                {% if person.email %}
-                <p>Email: <a href="mailto:{{ person.email }}">{{ person.email }}</a></p>
-                {% endif %}
-                <div class="content">
-                    {{ person.description | markdownify }}
-                </div>
-                {% if person.interests %}
-                <div class="content">
-                   <b>Research Interests:</b> {{ person.interests }}
-                </div>
-                {% endif %}
-            </div>
-        </div>
-        <hr>
-    </div>
-    {% endfor %}
-</div>
-{% else %}
-{% endif %}
+## Alumni
+
+{% include people_list.liquid people=site.data.people.alumni %}
 
 ## Interested in Working Together?
 

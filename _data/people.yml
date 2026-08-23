@@ -1,10 +1,28 @@
-research_aide:
+current_members:
+  - name: Jeffrey Huang
+    role: Undergraduate Research Aide
+    affiliation: University of Chicago
+    field: Data Science
+    dates: June 1, 2026 – Present
+
+  - name: Samantha Liao
+    role: Undergraduate SIP Student
+    affiliation: Cornell University
+    field: Materials Science
+    dates: June 14, 2026 – Present
+
+  - name: Jing Tang
+    role: PhD Research Aide
+    affiliation: Boston University
+    dates: July 7, 2026 – Present
+
+alumni:
   - name: Xufan Lu
     photo: people/Xufan_Lu.jpg
-    # email: student@example.com
     website: https://xufanlu.github.io/Xufan_Lu-Joanna/
-    description: >
-      B.Sc. and Master in Information Systems
-      <br>Technical University of Munich, Germany
-    interests: >
-      Building user-friendly and interactive web-based agents.
+    role: Master's Student Research Aide
+    affiliation: Technical University of Munich (TUM)
+    field: Information Systems
+    dates: January 2026 – April 2026
+    current_role: AI Consultant
+    current_company: McKinsey & Company
