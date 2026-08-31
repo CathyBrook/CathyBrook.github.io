@@ -9,6 +9,7 @@ _site
 Gemfile.lock
 assets/libs/
 node_modules/
+new_material/
 output/
 vendor
 .idea

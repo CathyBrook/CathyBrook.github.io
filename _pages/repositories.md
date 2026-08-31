@@ -87,7 +87,9 @@ _styles: |
     background: #efedf4;
   }
 
-  .project-preview img {
+  .project-preview img,
+  .project-preview video {
+    display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -95,7 +97,8 @@ _styles: |
     transition: transform 300ms ease;
   }
 
-  .project-card:hover .project-preview img {
+  .project-card:hover .project-preview img,
+  .project-card:hover .project-preview video {
     transform: scale(1.018);
   }
 
@@ -233,6 +236,7 @@ _styles: |
   @media (prefers-reduced-motion: reduce) {
     .project-card,
     .project-preview img,
+    .project-preview video,
     .project-link::after {
       transition: none;
     }
@@ -268,7 +272,9 @@ _styles: |
 
       <article class="project-card">
         <a class="project-preview" href="https://github.com/Cathyhjj/Dispersive_XAS" target="_blank" rel="noopener noreferrer" aria-label="View Dispersive_XAS on GitHub">
-          <img src="{{ '/assets/img/work-development/dispersive-xas.png' | relative_url }}" alt="Dispersive XAS interactive data-reduction preview" loading="lazy">
+          <video autoplay muted loop playsinline preload="metadata" poster="{{ '/assets/img/work-development/dispersive-xas.png' | relative_url }}" aria-hidden="true">
+            <source src="{{ '/assets/video/software/dispersive-xas-demo.mp4' | relative_url }}" type="video/mp4">
+          </video>
           <span class="project-number">02</span>
         </a>
         <div class="project-card-body">
@@ -283,25 +289,45 @@ _styles: |
       </article>
 
       <article class="project-card">
-        <a class="project-preview" href="https://github.com/Cathyhjj/EasyXASCalc" target="_blank" rel="noopener noreferrer" aria-label="View EasyXASCalc on GitHub">
-          <img src="{{ '/assets/img/work-development/easyxascalc.png' | relative_url }}" alt="EasyXASCalc transmission sample preparation interface" loading="lazy">
+        <a class="project-preview" href="https://github.com/Cathyhjj/EasyXASCalc" target="_blank" rel="noopener noreferrer" aria-label="View XASprep on GitHub">
+          <video autoplay muted loop playsinline preload="metadata" poster="{{ '/assets/img/work-development/easyxascalc.png' | relative_url }}" aria-hidden="true">
+            <source src="{{ '/assets/video/software/xasprep-demo.mp4' | relative_url }}" type="video/mp4">
+          </video>
           <span class="project-number">03</span>
         </a>
         <div class="project-card-body">
           <div class="project-heading-row">
-            <div><p class="project-type">Experiment preparation</p><h3><a href="https://github.com/Cathyhjj/EasyXASCalc" target="_blank" rel="noopener noreferrer">EasyXASCalc</a></h3></div>
+            <div><p class="project-type">Experiment preparation</p><h3><a href="https://github.com/Cathyhjj/EasyXASCalc" target="_blank" rel="noopener noreferrer">XASprep</a></h3></div>
             <span class="project-status">Live</span>
           </div>
           <p class="project-description">A practical sample-preparation calculator for transmission XAS, with pellet and area-density workflows, edge discovery, and attenuation estimates.</p>
-          <ul class="project-tags" aria-label="EasyXASCalc technologies"><li>Flask</li><li>React</li><li>xraylib</li><li>XAS</li></ul>
+          <ul class="project-tags" aria-label="XASprep technologies"><li>Flask</li><li>React</li><li>xraylib</li><li>XAS</li></ul>
           <div class="project-links"><a class="project-link" href="https://github.com/Cathyhjj/EasyXASCalc" target="_blank" rel="noopener noreferrer">View on GitHub</a><a class="project-link" href="https://easyxascalc.onrender.com/" target="_blank" rel="noopener noreferrer">Open live tool</a></div>
         </div>
       </article>
 
       <article class="project-card">
-        <a class="project-preview" href="https://github.com/Cathyhjj/XAFS_animations" target="_blank" rel="noopener noreferrer" aria-label="View XAFS animations on GitHub">
-          <img src="{{ '/assets/img/work-development/xafs-animations.png' | relative_url }}" alt="Animated XAFS sine-wave visualization" loading="lazy">
+        <a class="project-preview" href="https://github.com/Dr-XAS/DrXAS_database" target="_blank" rel="noopener noreferrer" aria-label="View XASBench on GitHub">
+          <video autoplay muted loop playsinline preload="metadata" aria-hidden="true">
+            <source src="{{ '/assets/video/software/xasbench-demo.mp4' | relative_url }}" type="video/mp4">
+          </video>
           <span class="project-number">04</span>
+        </a>
+        <div class="project-card-body">
+          <div class="project-heading-row">
+            <div><p class="project-type">Reference spectra database</p><h3><a href="https://github.com/Dr-XAS/DrXAS_database" target="_blank" rel="noopener noreferrer">XASBench</a></h3></div>
+            <span class="project-status">Database</span>
+          </div>
+          <p class="project-description">An interactive XAS reference database for browsing spectra by element and edge, reviewing metadata, and opening measured spectra for comparison.</p>
+          <ul class="project-tags" aria-label="XASBench technologies"><li>Python</li><li>SQLite</li><li>Flask</li><li>XAS</li></ul>
+          <div class="project-links"><a class="project-link" href="https://github.com/Dr-XAS/DrXAS_database" target="_blank" rel="noopener noreferrer">View on GitHub</a></div>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <a class="project-preview" href="https://github.com/Cathyhjj/XAFS_animations" target="_blank" rel="noopener noreferrer" aria-label="View XAFS animations on GitHub">
+          <img src="{{ '/assets/video/software/xafs-animations-grid.gif' | relative_url }}" alt="Four synchronized XAFS wave and spectrum animations" loading="lazy">
+          <span class="project-number">05</span>
         </a>
         <div class="project-card-body">
           <div class="project-heading-row">
@@ -345,7 +371,9 @@ _styles: |
 
       <article class="project-card">
         <a class="project-preview" href="https://github.com/Cathyhjj/HTML_canvas" target="_blank" rel="noopener noreferrer" aria-label="View HTML canvas on GitHub">
-          <img src="{{ '/assets/img/work-development/html-canvas.png' | relative_url }}" alt="Monochrome typographic portrait rendered in HTML Canvas" loading="lazy">
+          <video autoplay muted loop playsinline preload="metadata" poster="{{ '/assets/img/work-development/html-canvas.png' | relative_url }}" aria-hidden="true">
+            <source src="{{ '/assets/video/software/html-canvas-demo.mp4' | relative_url }}" type="video/mp4">
+          </video>
           <span class="project-number">02</span>
         </a>
         <div class="project-card-body">
@@ -353,8 +381,8 @@ _styles: |
             <div><p class="project-type">Creative coding</p><h3><a href="https://github.com/Cathyhjj/HTML_canvas" target="_blank" rel="noopener noreferrer">HTML Canvas</a></h3></div>
             <span class="project-status">Personal</span>
           </div>
-          <p class="project-description">A browser-based typographic portrait experiment that transforms video into a responsive field of X-ray-inspired text.</p>
-          <ul class="project-tags" aria-label="HTML Canvas technologies"><li>Canvas API</li><li>JavaScript</li><li>Video</li><li>Typography</li></ul>
+          <p class="project-description">A browser-based typography experiment that rebuilds a QR code from X-ray-inspired phrases, with real-time grain and contrast controls.</p>
+          <ul class="project-tags" aria-label="HTML Canvas technologies"><li>Canvas API</li><li>JavaScript</li><li>Typography</li><li>Interaction</li></ul>
           <div class="project-links"><a class="project-link" href="https://github.com/Cathyhjj/HTML_canvas" target="_blank" rel="noopener noreferrer">View on GitHub</a></div>
         </div>
       </article>
