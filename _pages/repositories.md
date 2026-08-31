@@ -381,8 +381,8 @@ _styles: |
             <div><p class="project-type">Creative coding</p><h3><a href="https://github.com/Cathyhjj/HTML_canvas" target="_blank" rel="noopener noreferrer">HTML Canvas</a></h3></div>
             <span class="project-status">Personal</span>
           </div>
-          <p class="project-description">A browser-based typography experiment that rebuilds a QR code from X-ray-inspired phrases, with real-time grain and contrast controls.</p>
-          <ul class="project-tags" aria-label="HTML Canvas technologies"><li>Canvas API</li><li>JavaScript</li><li>Typography</li><li>Interaction</li></ul>
+          <p class="project-description">A browser-based typographic portrait experiment that transforms a persona video into a responsive field of X-ray-inspired text.</p>
+          <ul class="project-tags" aria-label="HTML Canvas technologies"><li>Canvas API</li><li>JavaScript</li><li>Video</li><li>Typography</li></ul>
           <div class="project-links"><a class="project-link" href="https://github.com/Cathyhjj/HTML_canvas" target="_blank" rel="noopener noreferrer">View on GitHub</a></div>
         </div>
       </article>
