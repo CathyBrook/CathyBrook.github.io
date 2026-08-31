@@ -13,7 +13,9 @@ profile:
 
 banner: assets/img/banner.png
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+current_research_focus:
+  - Pushing extremes XAS
+  - Accelerating Discovery with AI
 social: true # includes social icons at the bottom of the page
 
 announcements:

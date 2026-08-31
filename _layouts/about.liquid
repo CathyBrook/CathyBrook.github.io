@@ -56,12 +56,16 @@ layout: default
       {% include latest_posts.liquid %}
     {% endif %}
 
-    <!-- Selected papers -->
-    {% if page.selected_papers %}
-      <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">First-author publications</a>
-      </h2>
-      {% include selected_papers.liquid %}
+    <!-- Current research focus -->
+    {% if page.current_research_focus %}
+      <section class="current-research-focus" aria-labelledby="current-research-focus-heading">
+        <h2 id="current-research-focus-heading">Current Research Focus</h2>
+        <ol>
+          {% for focus in page.current_research_focus %}
+            <li>{{ focus }}</li>
+          {% endfor %}
+        </ol>
+      </section>
     {% endif %}
 
     <!-- Social -->
